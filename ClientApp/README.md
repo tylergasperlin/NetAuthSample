@@ -1,5 +1,11 @@
-https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-5.0
-https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/microsoft-logins?view=aspnetcore-5.0
+
+Configure mfst auth login
+[InitialAuthSetup](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-api-authorization?view=aspnetcore-5.0)
+[MFST Auth](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/microsoft-logins?view=aspnetcore-5.0)
+
+To run locally you need to get the client and secret from azure portal app registrations. WorkflowtrakDev
+dotnet user-secrets set "Authentication:Microsoft:ClientId" "<client-id>"
+dotnet user-secrets set "Authentication:Microsoft:ClientSecret" "<client-secret>"
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
